@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "Chamas",
+        "habilidades": [
+            "Fogo",
+            "Voo"
+        ],
+        "stats": {
+            "força": 10,
+            "inteligencia": 5,
+            "velocidade": 8,
+            "resistencia": 7,
+            "habilidade": 10 
+        }
+    },
+    {
+        "nome": "Quatro Braços",
+        "habilidades": [
+            "Força",
+            "Velocidade"
+        ],
+        "stats": {
+            "força": 10,
+            "inteligencia": 5,
+            "velocidade": 8,
+            "resistencia": 7,
+            "habilidade": 10
+        }
+    }
+]

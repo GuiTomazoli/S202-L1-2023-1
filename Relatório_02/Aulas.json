@@ -1,0 +1,44 @@
+[
+    {
+        "aula": "C206",
+        "Conteudo": [
+            "Java"
+        ],
+        "stats": {
+            "professor": "Chris",
+            "assunto": "POO",
+            "aluno 1": "Guilherme",
+            "aluno 2": "Pedro",
+            "aluno 3": "Diego",
+            "aluno 4": "Lucas"
+        }
+    },
+    {
+        "aula": "C207",
+        "Conteudo": [
+            "SQL"
+        ],
+        "stats": {
+            "professor": "Renzo",
+            "assunto": "BD",
+            "aluno 1": "Bruno",
+            "aluno 2": "Leticia",
+            "aluno 3": "Alex",
+            "aluno 4": "Julia"
+        }
+    },
+    {
+        "aula": "C202",
+        "Conteudo": [
+            "C++"
+        ],
+        "stats": {
+            "professor": "Soned",
+            "assunto": "Algoritmos",
+            "aluno 1": "Lucas",
+            "aluno 2": "Ana",
+            "aluno 3": "Paulo",
+            "aluno 4": "Thais"
+        }
+    }
+]
