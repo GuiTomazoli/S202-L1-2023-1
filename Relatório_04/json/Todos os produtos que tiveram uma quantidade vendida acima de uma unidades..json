@@ -25,13 +25,13 @@
     },
     {
         "_id": {
-            "produto": "Mussarela"
+            "produto": "Banana"
         },
         "total": 4
     },
     {
         "_id": {
-            "produto": "Banana"
+            "produto": "Mussarela"
         },
         "total": 4
     },
