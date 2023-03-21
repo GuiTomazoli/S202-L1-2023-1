@@ -1,0 +1,50 @@
+[
+    {
+        "_id": {
+            "cliente": 5,
+            "data": "2022-03-14",
+            "produto": "Cerveja"
+        },
+        "total": 12
+    },
+    {
+        "_id": {
+            "cliente": 2,
+            "data": "2022-03-16",
+            "produto": "Laranja"
+        },
+        "total": 4
+    },
+    {
+        "_id": {
+            "cliente": 6,
+            "data": "2022-03-13",
+            "produto": "Banana"
+        },
+        "total": 4
+    },
+    {
+        "_id": {
+            "cliente": 1,
+            "data": "2022-03-17",
+            "produto": "Sabonete"
+        },
+        "total": 3
+    },
+    {
+        "_id": {
+            "cliente": 3,
+            "data": "2022-03-15",
+            "produto": "Bolacha"
+        },
+        "total": 3
+    },
+    {
+        "_id": {
+            "cliente": 4,
+            "data": "2022-03-14",
+            "produto": "Bolacha"
+        },
+        "total": 3
+    }
+]
