@@ -58,11 +58,6 @@ game_db.insert_player_game("Maria", "Fortnite")
 game_db.insert_player_game("José", "Call of Duty Warzone")
 game_db.insert_player_game("Pedro", "Apex Legends")
 
-# Deletando um aluno e uma aula
-#school_db.delete_aluno("Beatriz")
-#school_db.delete_aula("História")
-# Deletando um player e um game
-
 
 # Imprimindo todas as informações do banco de dados
 #print("Professores:")
