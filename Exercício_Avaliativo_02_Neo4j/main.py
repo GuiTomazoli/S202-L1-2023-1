@@ -49,7 +49,7 @@ print("\n")
 
 # Imprimindo todas as informações da Questão 3) do banco de dados
 #Questão 3)b
-#teacher_crud_db.create_teacher("Chris Lima", 1956, "189.052.396-66")
+teacher_crud_db.create_teacher("Chris Lima", 1956, "189.052.396-66")
 print("Questão 3)c:")
 print("Professores com o nome Chris Lima do Database:")
 print(teacher_crud_db.read_teacher("Chris Lima"))

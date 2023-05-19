@@ -2,6 +2,7 @@ class TeacherCRUDDatabase:
     def __init__(self, database):
         self.db = database
 
+    #Questão 3)a:
     def create_teacher(self, name, ano_nasc, cpf):
         query = "CREATE (:Teacher {name: $name, ano_nasc: $ano_nasc, cpf: $cpf})"
         parameters = {"name": name, "ano_nasc": ano_nasc, "cpf": cpf}
