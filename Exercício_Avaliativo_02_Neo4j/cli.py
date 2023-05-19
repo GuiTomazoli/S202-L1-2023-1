@@ -27,28 +27,28 @@ class TeacherCLI(SimpleCLI):
         self.add_command("delete", self.delete_teacher)
 
     def create_teacher(self):
-        name = input("Entre com o nome: ")
-        ano_nasc = int(input("Entre com o ano de nascimento: "))
-        cpf = input("Entre com o cpf: ")
+        name = input("Entre com o nome do professor: ")
+        ano_nasc = int(input("Entre com o ano de nascimento do professor: "))
+        cpf = input("Entre com o cpf do professor: ")
         self.teacher_model.create_teacher(name, ano_nasc, cpf)
 
     def read_teacher(self):
-        name = input("Entre com o nome que deseja ler: ")
+        name = input("Entre com o nome  do professor que deseja ler: ")
         teacher = self.teacher_model.read_teacher(name)
         if teacher:
             teacher = teacher[0]
-            print(f"Name: {teacher['name']}")
-            print(f"Ano_nasc: {teacher['ano_nasc']}")
-            print(f"Cpf: {teacher['cpf']}")
+            print(f"Nome do professor: {teacher['name']}")
+            print(f"Ano de nascimento do professor: {teacher['ano_nasc']}")
+            print(f"CPF do professor: {teacher['cpf']}")
 
     def update_teacher(self):
-        name = input("Entre com o nome que deseja atualizar: ")
-        cpf = input("Entre com o novo cpf: ")
+        name = input("Entre com o nome do professor que deseja atualizar: ")
+        cpf = input("Entre com o novo cpf do professor: ")
 
         self.teacher_model.update_teacher(name, cpf)
 
     def delete_teacher(self):
-        name = input("Digite o nome que deseja excluir: ")
+        name = input("Digite o nome do professor que deseja excluir: ")
         self.teacher_model.delete_teacher(name)
         
     def run(self):
